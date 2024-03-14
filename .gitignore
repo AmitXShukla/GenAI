@@ -1,0 +1,9 @@
+*.cfg
+Scripts/
+Lib/
+Include/
+/build/*
+share/*
+/src/text/*.*
+*/.ipynb_checkpoints/*
+etc/*
