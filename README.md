@@ -50,8 +50,8 @@ A curated collection of Production GenAI applications, demonstrating their pract
 
 ## License Agreement
 
-[License Information](https://github.com/AmitXShukla/GenAI/blob/main/LICENSE)
+[License Information](https://github.com/AmitXShukla/GenAI/blob/master/LICENSE)
 
 ## Privacy Policy
 
-[Privacy Policy](https://github.com/AmitXShukla/GenAI/blob/main/LICENSE)
+[Privacy Policy](https://github.com/AmitXShukla/GenAI/blob/master/LICENSE)
