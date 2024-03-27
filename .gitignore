@@ -1,9 +1,9 @@
 *.cfg
 Scripts/
-Lib/
+Lib/site-packages/
 Include/
 /build/*
 share/*
 /src/text/*.*
-*/.ipynb_checkpoints/*
+**/.ipynb_checkpoints/*
 etc/*

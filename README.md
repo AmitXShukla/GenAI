@@ -31,7 +31,7 @@ A curated collection of Production GenAI applications, demonstrating their pract
 - `Cops per person`: A vision, climate and surrounding based AI monitoring public gathering and law enforcements presence in sensitive area
 - Embeddings :
     - `Anomaly Detection` - Identify Fat Finger Purchases, Invoices and transactions
-    - `Recommendation engine`: create a local version of "bought together" items recommendation engine based on internal customer purchase history and promotions.
+    - `Recommendation engine`: create a local version of "purchased together" items recommendation engine based on internal customer purchase history and promotions.
     - `Fraud Alerts`:  Identify and Alert Fat Finger Purchases, Invoices and transactions
 - **Other Ideas: (Pro Applications)**
     - RxPathology.ai | Lab.ai
