@@ -112,7 +112,7 @@ class _AppState extends State<App> {
             ? colorSelected.color
             : imageColorScheme!.primary,
         useMaterial3: useMaterial3,
-        brightness: Brightness.dark,
+        brightness: Brightness.light,
       ),
       // home: Home(
       //   useLightMode: useLightMode,

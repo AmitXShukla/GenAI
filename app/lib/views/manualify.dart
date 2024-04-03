@@ -106,7 +106,7 @@ class ManualifyState extends State<Manualify> {
                   },
                   // onSaved: (value) => _email = value,
                   decoration: InputDecoration(
-                    icon: const Icon(Icons.search),
+                    icon: const Icon(Icons.search_sharp),
                     border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(16.0)),
                     hintText: 'type your prompt',

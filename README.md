@@ -20,14 +20,14 @@ A curated collection of Production GenAI applications, demonstrating their pract
     : is a Smart AI for Answering Questions from Tutorials: Harnessing the Power of RAG LLMs and Documents
 - `HelpDesk.ai` [.ipynb](./HelpDesk/src/HelpDesk.ipynb) [.pdf](./docs/HelpDesk.pdf) [Video](https://youtube.com/@Amit.Shukla) : Revolutionizing Customer Support through Automation
 - `AutoResponder.ai`: Streamlining Interactions: An Exploration of Automated Chat Moderation and Command Response Systems
-- `Railroad Crossing Watch`: An automated vision AI, which watches Railroad Crossing for Potential Hazard
-- `Neighborhood Car Casing`: A Vision-Based AI System: Automated Identification and Tagging of Non-Neighborhood Vehicles Exhibiting Suspicious Behavior
 - `Duplicate Invoice Match`:
 - `Spend Classifier`:
-- `Contract Recommendation Engine`:
+- `Contract Reader, Validator, Recommender Engine`:
 - `Sourcing Procurement Contracts Engine`:
 - `Taxonomy`:
 - `AutoGrader`: School paper grading, self-study assignment grader
+- `Railroad Crossing Watch`: An automated vision AI, which watches Railroad Crossing for Potential Hazard
+- `Neighborhood Car Casing`: A Vision-Based AI System: Automated Identification and Tagging of Non-Neighborhood Vehicles Exhibiting Suspicious Behavior
 - `Cops per person`: A vision, climate and surrounding based AI monitoring public gathering and law enforcements presence in sensitive area
 - Embeddings :
     - `Anomaly Detection` - Identify Fat Finger Purchases, Invoices and transactions
