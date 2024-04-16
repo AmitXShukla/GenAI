@@ -48,7 +48,7 @@ class ManualifyState extends State<Manualify> {
   fetchData(String prompt) async {
     toggleSpinner();
     // ignore: prefer_typing_uninitialized_variables
-    var userAuth;
+    // var userAuth;
     if (prompt != "") {
       // userAuth = await authBloc.signInWithGoogle();
       showMessage(
