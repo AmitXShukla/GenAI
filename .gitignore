@@ -7,3 +7,4 @@ share/*
 /src/text/*.*
 **/.ipynb_checkpoints/*
 etc/*
+**/test_db.db
