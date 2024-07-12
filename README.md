@@ -70,19 +70,23 @@ This blog series covers every step of building, deploying, and launching a basic
 - `Supply chain assistant`:
 
     - `Auto Invoicing, Duplicate Invoice Match`: 
-        - DocumentBot.ai: Auto reader, Payables, Receivables, Voucher, Invoice, Payment, Receipts, Guided buying, purchase recommendations, anomaly detection, bought together, optimum qty, payment monitoring system
+        - DocumentBot.ai: 
+        - Auto reader
+        - Payables, Receivables, Voucher, Invoice, Payment, 
+        - Receipts, Guided buying, purchase recommendations, anomaly detection
+        - bought together, optimum qty, payment monitoring system
         - 3 way match, match exception analysis, AI interceptor invoice monitoring
 		- vendor monitoring and analysis
-		- ordering supplies - auto replenishment inventory, smart inventory
-        - `Spend Classifier`:
-        - `Smart Supplier:`
-        - `Contract Reader, Validator, Recommender Engine`
+		- ordering supplies - auto replenishment inventory
+        - `Spend Classifier`
+        - `Smart Supplier:`
+        - `Contract Reader, Validator, Recommender Engine`
         - contractual vs non-contractual spending
-        - `Sourcing Procurement Contracts Engine`:
-        - `SavingsFinder.ai | Guidedbuying.ai`:
-        - `Taxonomy`:
-        - `ML4GL` - Finance Statement, Security filings RAG
-        - `Time & Expense`: audit time, expense and monitoring for employees
+        - `Sourcing Procurement Contracts Engine`:
+        - `SavingsFinder.ai | Guidedbuying.ai`:
+        - `Taxonomy`:
+        - `ML4GL` - Finance Statement, Security filings RAG
+        - `Time & Expense`: audit time, expense and monitoring for employees
 
 - Embeddings :
     
