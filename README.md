@@ -158,6 +158,13 @@ sankey-beta
  ai.app, help desk, 10
  ai.app, Account Payables, 10
  ai.app, Supply chain, 10
- 
+ ai.app, Finance, 10
+ ai.app, Time Expense, 10
+ ai.app, HR, 10
+ ai.app, CRM, 10
+ ai.app, Fraud Alert, 10
+ ai.app, Inventory, 10
+ ai.app, Auto Replenish, 10
+ ai.app, Invoice Match, 10
 
 ```
