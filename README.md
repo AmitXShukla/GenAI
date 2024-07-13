@@ -121,11 +121,43 @@ config:
 sankey-beta
 
 %% source,target,value
- Data, ELT Pipeline, 10
- Data, Cleanse Wrangle web scrape, 45
- Data, Images PDFs SQL RDBMS Lake, 45
- ELT Pipeline, ELT Lake, 20
- Cleanse Wrangle web scrape, ELT Lake, 40
- Images PDFs SQL RDBMS Lake, ELT Lake, 40
+ Data, Lake, 20
+ Data, Cleanse, 40
+ Data, Wrangle, 40
+ Data, scrape, 40
+ Data, Images, 40
+ Data, PDFs, 40
+ Data, SQL, 40
+ Data, Files, 40
+ Cleanse, Lake, 40
+ Wrangle,Lake, 40
+ scrape, Lake,40
+ Images,Lake, 40
+ PDFs, Lake,40
+ SQL, Lake,40
+ Files, Lake,40
+ Lake, RAG, 10
+ Lake, Tokenizer, 10
+ RAG, ai.Engine, 10
+ Tokenizer, ai.Engine, 10
+ VectorDB, ai.Engine, 10
+ LLM, ai.Engine, 10
+ Embedding, ai.Engine, 10
+ Code, ai.Engine, 10
+ models, ai.Engine, 10
+ prompt templates, ai.Engine, 10
+ query translations, ai.Engine, 10
+ route, ai.Engine, 10
+ SQLs, ai.Engine, 10
+ ai.Engine, ai.app, 100
+ ai.app, manual, 10
+ ai.app, knowledge store, 10
+ ai.app, chatbot, 10
+ ai.app, ticket handling, 10
+ ai.app, assistant, 10
+ ai.app, help desk, 10
+ ai.app, Account Payables, 10
+ ai.app, Supply chain, 10
+ 
 
 ```
