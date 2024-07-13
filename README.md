@@ -24,7 +24,7 @@ In this series, you'll gain hands-on experience in constructing high-caliber app
 In this series, we will use open-source models like **Llama 3, Mistral, Phi, Gemma 2** and Lang Chain, or paid APIs like **Claude, Gemini and Open AI**.
 These state-of-the-art systems handle complex tasks across languages and modalities while supporting extensive contexts. 
 You can host these models locally or on cloud, depending on your business needs.
-In this series, you will find individual scripts which are part of a larger microservices architecture, helping us achieve bigger goals by taking small steps forward. We'll use local LLMs and code models, as well as **Ollama**, **Lang Chain**, **Taipy**, **Chroma**, and other technologies that can operate offline without internet connectivity, ensuring your data remains safe and secure within your premises.
+In this series, you will find individual scripts which are part of a larger microservices architecture, helping us achieve bigger goals by taking small steps forward. We'll use local LLMs and code models, as well as **OLLAMA**, **Lang Chain**, **TAIPY**, **Chroma**, and other technologies that can operate offline without internet connectivity, ensuring your data remains safe and secure within your premises.
 
 Additionally, you will learn to:
 
@@ -110,3 +110,16 @@ This blog series covers every step of building, deploying, and launching a basic
     - `Dreamify.ai`
     - `Astrologify.ai`
     - `TradingAlerts.ai | Tradesmart.ai` - using Fundamental and Technical Analysis, generate leads based on in-house RAG Sec Filings database, Trading alerts news etc.
+
+```mermaid
+sankey-beta
+
+%% source,target,value
+ Data, ELT Pipeline, 10
+ Data, Cleanse Wrangle web scrape, 45
+ Data, Images PDFs SQL RDBMS Lake, 45
+ ELT Pipeline, ELT Lake, 20
+ Cleanse Wrangle web scrape, ELT Lake, 40
+ Images PDFs SQL RDBMS Lake, ELT Lake, 40
+
+```
