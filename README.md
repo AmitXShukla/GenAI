@@ -112,6 +112,12 @@ This blog series covers every step of building, deploying, and launching a basic
     - `TradingAlerts.ai | Tradesmart.ai` - using Fundamental and Technical Analysis, generate leads based on in-house RAG Sec Filings database, Trading alerts news etc.
 
 ```mermaid
+---
+config:
+  sankey:
+    showValues: false
+---
+
 sankey-beta
 
 %% source,target,value
