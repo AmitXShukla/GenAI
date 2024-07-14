@@ -67,9 +67,9 @@ sankey-beta
  PDFs, Lake,40
  SQL, Lake,40
  Files, Lake,40
- Lake, RAG, 10
+ Lake, RAG, 30
  Lake, Tokenizer, 10
- RAG, ai.Engine, 10
+ RAG, ai.Engine, 40
  Tokenizer, ai.Engine, 30
  VectorDB, ai.Engine, 30
  LLM, ai.Engine, 10
