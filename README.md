@@ -70,8 +70,8 @@ sankey-beta
  Lake, RAG, 10
  Lake, Tokenizer, 10
  RAG, ai.Engine, 10
- Tokenizer, ai.Engine, 10
- VectorDB, ai.Engine, 10
+ Tokenizer, ai.Engine, 30
+ VectorDB, ai.Engine, 30
  LLM, ai.Engine, 10
  Embedding, ai.Engine, 10
  Code, ai.Engine, 10
@@ -80,23 +80,23 @@ sankey-beta
  query translations, ai.Engine, 10
  route, ai.Engine, 10
  SQLs, ai.Engine, 10
- ai.Engine, ai.app, 100
- ai.app, manual, 10
- ai.app, knowledge store, 10
- ai.app, chatbot, 10
- ai.app, ticket handling, 10
- ai.app, assistant, 10
- ai.app, help desk, 10
- ai.app, Account Payables, 10
- ai.app, Supply chain, 10
- ai.app, Finance, 10
- ai.app, Time Expense, 10
- ai.app, HR, 10
- ai.app, CRM, 10
- ai.app, Fraud Alert, 10
- ai.app, Inventory, 10
- ai.app, Auto Replenish, 10
- ai.app, Invoice Match, 10
+ ai.Engine, ai.App, 100
+ ai.App, manual, 10
+ ai.App, knowledge store, 10
+ ai.App, chatbot, 10
+ ai.App, ticket handling, 10
+ ai.App, assistant, 10
+ ai.App, help desk, 10
+ ai.App, Account Payables, 10
+ ai.App, Supply chain, 10
+ ai.App, Finance, 10
+ ai.App, Time Expense, 10
+ ai.App, HR, 10
+ ai.App, CRM, 10
+ ai.App, Fraud Alert, 10
+ ai.App, Inventory, 10
+ ai.App, Auto Replenish, 10
+ ai.App, Invoice Match, 10
 
 ```
 
