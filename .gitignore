@@ -8,3 +8,4 @@ share/*
 **/.ipynb_checkpoints/*
 etc/*
 **/test_db.db
+Untitled*.ipynb

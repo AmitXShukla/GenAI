@@ -17,7 +17,7 @@ click here to access [Video Tutorials](https://youtube.com/@Amit.Shukla)
 
 ## Introduction
 
-I'm excited to introduce my new blog series on **Gen AI RAG driven applications**. We'll be creating practical tools like AI-powered programming manuals, web scraping software, a real-time knowledge base, virtual assistant, and automatic responder app - all running locally on open-source language models.
+I'm excited to introduce my new blog series on **Gen AI RAG driven applications**. We'll be creating practical tools like AI-powered programming manuals, web scraping software, a real-time knowledge base, virtual assistant, and automatic responder app - all running `100% locally` on open-source language models.
 
 In this series, you'll gain hands-on experience in constructing high-caliber applications that function seamlessly within your environment, from local development to production deployment.
 
@@ -38,7 +38,7 @@ Additionally, you will learn to:
 
 5. **Process larger contexts** without performance bottlenecks, allowing the application to maintain high responsiveness even when dealing with extensive amounts of information or complex queries.
 
-We will not cover all of these scenarios and may not in depth as much we wanted to in a real production system, however, we will simulate as much as we can, to perform a quick POC.
+We will not cover all of scenarios and may not in depth as much we wanted to in a real production system, however, we will simulate as much as we can, to perform a quick POC.
 
 **Here is a high level process flow diagram**
 
