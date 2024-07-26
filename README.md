@@ -21,7 +21,7 @@ I'm excited to introduce my new blog series on **Gen AI RAG driven applications*
 
 In this series, you'll gain hands-on experience in constructing high-caliber applications that function seamlessly within your environment, from local development to production deployment.
 
-In this series, we will use open-source models like **Llama 3, Mistral, Phi, Gemma 2** and Lang Chain, or paid APIs like **Claude, Gemini and Open AI**.
+In this series, we will use open-source models like **Llama 3.1, Mistral, Phi, Gemma 2** and Lang Chain, or paid APIs like **Claude, Gemini and Open AI**.
 These state-of-the-art systems handle complex tasks across languages and modalities while supporting extensive contexts. 
 You can host these models locally or on cloud, depending on your business needs.
 In this series, you will find individual scripts which are part of a larger microservices architecture, helping us achieve bigger goals by taking small steps forward. We'll use local LLMs and code models, as well as **OLLAMA**, **Lang Chain**, **TAIPY**, **Chroma**, and other technologies that can operate offline without internet connectivity, ensuring your data remains safe and secure within your premises.
