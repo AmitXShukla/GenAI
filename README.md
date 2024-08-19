@@ -4,8 +4,6 @@ This blog series is for beginners and young Entrepreneurs who want to build **Ge
 
 **Author:** Amit Shukla
 
-[License Information](https://github.com/AmitXShukla/GenAI/blob/master/LICENSE)
-
 **Connect**
 
 [<img src="https://github.com/AmitXShukla/AmitXShukla.github.io/blob/master/assets/icons/youtube.svg" width=40 height=50>](https://youtube.com/@Amit.Shukla)
@@ -98,6 +96,8 @@ sankey-beta
  ai.App, Invoice Match, 10
 
 ```
+
+## other use cases
 
 This blog series covers every step of building, deploying, and launching a basic app from scratch. Later, we'll apply these skills to more complex projects.
 
