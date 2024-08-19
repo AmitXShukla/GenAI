@@ -1,6 +1,6 @@
 # GenAI Apps
 
-A curated collection of Production GenAI applications, demonstrating their practical impact in real-world scenarios.
+This blog series is for beginners and young Entrepreneurs who want to build **Gen AI RAG driven applications**.
 
 **Author:** Amit Shukla
 
@@ -13,32 +13,31 @@ A curated collection of Production GenAI applications, demonstrating their pract
 [<img src="https://github.com/AmitXShukla/AmitXShukla.github.io/blob/master/assets/icons/medium.svg" width=40 height=50>](https://medium.com/@Amit-Shukla)
 [<img src="https://github.com/AmitXShukla/AmitXShukla.github.io/blob/master/assets/icons/twitter_1.svg" width=40 height=50>](https://x.com/@ashuklax)
 
-click here to access [Video Tutorials](https://youtube.com/@Amit.Shukla)
+click here to access [video playlist](https://youtube.com/@Amit.Shukla)
 
-## Introduction
+## What you'll learn
+Hands on experience to build Gen AI RAG based Pro Apps, running 100% locally/hosted or API based, using API / tools of your choice.
+## Tools
+		Vector DB: TryChroma, SQLLite, Supabe or any VectorDB of your choice
+		Progamming: Python 3.12+
+		Application: Ollama WebUI or Taipy or Flutter
+		IDE: Jupyter Lab, Ollama
+		LLM: Gemini | llama 3.1 | OpenAI ChatGPT | Anthropic | Local models
+## Lessons
 
-I'm excited to introduce my new blog series on **Gen AI RAG driven applications**. We'll be creating practical tools like AI-powered programming manuals, web scraping software, a real-time knowledge base, virtual assistant, and automatic responder app - all running `100% locally` on open-source language models.
-
-In this series, you'll gain hands-on experience in constructing high-caliber applications that function seamlessly within your environment, from local development to production deployment.
-
-In this series, we will use open-source models like **Llama 3.1, Mistral, Phi, Gemma 2** and Lang Chain, or paid APIs like **Claude, Gemini and Open AI**.
-These state-of-the-art systems handle complex tasks across languages and modalities while supporting extensive contexts. 
-You can host these models locally or on cloud, depending on your business needs.
-In this series, you will find individual scripts which are part of a larger microservices architecture, helping us achieve bigger goals by taking small steps forward. We'll use local LLMs and code models, as well as **OLLAMA**, **Lang Chain**, **TAIPY**, **Chroma**, and other technologies that can operate offline without internet connectivity, ensuring your data remains safe and secure within your premises.
-
-Additionally, you will learn to:
-
-1. **Utilize proprietary data** effectively within these applications to ensure confidentiality and tailor solutions specifically to your organization's needs.
-
-2. **Run & Manage models locally** for faster processing times, reducing dependency on cloud services, and enhancing control over the application infrastructure.
-
-3. **Handle multi-modal inputs/outputs**—incorporating textual, visual, and auditory data to create applications capable of more natural human-computer interactions.
-
-4. **Support multiple languages** in your apps, ensuring a broader reach and inclusivity for users worldwide.
-
-5. **Process larger contexts** without performance bottlenecks, allowing the application to maintain high responsiveness even when dealing with extensive amounts of information or complex queries.
-
-We will not cover all of scenarios and may not in depth as much we wanted to in a real production system, however, we will simulate as much as we can, to perform a quick POC.
+| #   | Lesson                                       | Source   | video |
+| --- | -------------------------------------------- | -------- | ----- |
+| 1   | Learning to setup and use LLM                | [notebook](./Manualify/src/Manualify.ipynb) | link  |
+| 2   | working with data loader                     | [notebook](./Manualify/src/Manualify.ipynb) | link  |
+| 3   | Tokenizer, Embeddings, Vector DB and LLM     | [notebook](./Manualify/src/Manualify.ipynb) | link  |
+| 4   | Tools/Function calling                       | [notebook](./Manualify/src/Manualify.ipynb) | link  |
+| 5   | building a functioning web app               | [notebook](./Manualify/src/Manualify.ipynb) | link  |
+| 6   | Pro APP : Time Expense monitoring automation | notebook | link  |
+| 7   | Pro APP: Local OCR Vision AI                 | notebook | link  |
+| 8   | Pro APP: Supply Chain monitoring AI          | notebook | link  |
+| 9   | Pro APP: Help Desk automation                | notebook | link  |
+| 10  | Pro APP: Auto Responder                      | notebook | link  |
+| 11  | Appendix - Other use cases                   | notebook | link  |
 
 **Here is a high level process flow diagram**
 
@@ -149,22 +148,3 @@ This blog series covers every step of building, deploying, and launching a basic
     - `Dreamify.ai`
     - `Astrologify.ai`
     - `TradingAlerts.ai | Tradesmart.ai` - using Fundamental and Technical Analysis, generate leads based on in-house RAG Sec Filings database, Trading alerts news etc.
-
-```mermaid
-%%{init:{'theme':'light'}}%%
-%%{init:{'themeCSS':'.messageLine0:nth-of-type(2) { stroke: red; };.messageText:nth-of-type(1) { fill: green; font-size: 20px !important;}; g:nth-of-type(3) rect.actor { stroke:blue;fill: pink; }; g:nth-of-type(5) .note { stroke:blue;fill: crimson; };#arrowhead path {stroke: blue; fill:red;};'}}%%
-
-sequenceDiagram
-	Data->>ELTLake: ELT Pipeline
-	Data->>ELTLake: Cleanse, Wrangle, web scrape
-	Data->>ELTLake: Images, PDFs, SQL RDBMS Lake
-	ELTLake->>AI.Engine: RAG, Tokenizer
-	AI.Engine-->>ELTLake: VectorDB
-	AI.Engine-->>GenAI.App: Ai.Apps
-	GenAI.App-)AI.Engine: LLM, embedding, code models
-	GenAI.App-)AI.Engine: prompt templates, routing, SQL, RAG
-	AI.Engine-->>GenAI.App:manual, knowledge store, chatbot
-	AI.Engine-->>GenAI.App:help desk assistant, ticket handling
-	AI.Engine-->>GenAI.App:Account Payables
-	AI.Engine-->>GenAI.App:Supply chain 
-```
