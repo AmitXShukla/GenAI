@@ -96,6 +96,10 @@ sankey-beta
  ai.App, Invoice Match, 10
 
 ```
+## sample app
+![image 1](./Manualify/images/banner_1.png)
+![image 2](./Manualify/images/banner_3.png)
+![image 3](./Manualify/images/banner_2.png)
 
 ## other use cases
 
