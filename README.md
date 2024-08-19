@@ -96,12 +96,12 @@ sankey-beta
  ai.App, Invoice Match, 10
 
 ```
-## sample app
+## Sample App images (end results)
 ![image 1](./Manualify/images/banner_1.png)
 ![image 2](./Manualify/images/banner_3.png)
 ![image 3](./Manualify/images/banner_2.png)
 
-## other use cases
+## Appendix: other use cases
 
 This blog series covers every step of building, deploying, and launching a basic app from scratch. Later, we'll apply these skills to more complex projects.
 
