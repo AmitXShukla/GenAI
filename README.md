@@ -23,19 +23,19 @@ Hands on experience to build Gen AI RAG based Pro Apps, running 100% locally/hos
 		LLM: Gemini | llama 3.1 | OpenAI ChatGPT | Anthropic | Local models
 ## Lessons
 
-| #   | Lesson                                       | Source   | video |
-| --- | -------------------------------------------- | -------- | ----- |
-| 1   | Learning to setup and use LLM                | [notebook](./Manualify/src/Manualify.ipynb) | link  |
-| 2   | working with data loader                     | [notebook](./Manualify/src/Manualify.ipynb) | link  |
-| 3   | Tokenizer, Embeddings, Vector DB and LLM     | [notebook](./Manualify/src/Manualify.ipynb) | link  |
-| 4   | Tools/Function calling                       | [notebook](./Manualify/src/Manualify.ipynb) | link  |
-| 5   | building a functioning web app               | [notebook](./Manualify/src/Manualify.ipynb) | link  |
-| 6   | Pro APP : Time Expense monitoring automation | notebook | link  |
-| 7   | Pro APP: Local OCR Vision AI                 | notebook | link  |
-| 8   | Pro APP: Supply Chain monitoring AI          | notebook | link  |
-| 9   | Pro APP: Help Desk automation                | notebook | link  |
-| 10  | Pro APP: Auto Responder                      | notebook | link  |
-| 11  | Appendix - Other use cases                   | notebook | link  |
+| #   | Lesson                                                                      | video |
+| --- | --------------------------------------------------------------------------- | ----- |
+| 1   | [Learning to setup and use LLM](./Manualify/src/Manualify.ipynb)            | link  |
+| 2   | [working with data loader](./Manualify/src/Manualify.ipynb)                 | link  |
+| 3   | [Tokenizer, Embeddings, Vector DB and LLM](./Manualify/src/Manualify.ipynb) | link  |
+| 4   | [Tools/Function calling](./Manualify/src/Manualify.ipynb)                   | link  |
+| 5   | building a functioning web app                                              | link  |
+| 6   | Pro APP : Time Expense monitoring automation                                | link  |
+| 7   | Pro APP: Local OCR Vision AI                                                | link  |
+| 8   | Pro APP: Supply Chain monitoring AI                                         | link  |
+| 9   | Pro APP: Help Desk automation                                               | link  |
+| 10  | Pro APP: Auto Responder                                                     | link  |
+| 11  | Appendix - Other use cases                                                  | link  |
 
 **Here is a high level process flow diagram**
 
