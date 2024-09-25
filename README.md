@@ -100,6 +100,7 @@ sankey-beta
 ![image 1](./Manualify/images/banner_1.png)
 ![image 2](./Manualify/images/banner_3.png)
 ![image 3](./Manualify/images/banner_2.png)
+![image 3](./Manualify/images/banner_4.png)
 
 ## Appendix: other use cases
 
