@@ -1,7 +1,11 @@
 *.cfg
 Scripts/
+bin/
+lib/
+lib64
 Lib/site-packages/
-Include/
+include/
+version/
 /build/*
 share/*
 /src/text/*.*

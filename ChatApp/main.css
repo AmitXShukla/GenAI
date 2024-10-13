@@ -1,0 +1,61 @@
+.gpt_message td {
+    margin-left: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+    background-color: #ff462b;
+    border-radius: 20px;
+    max-width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: large;
+}
+
+.user_message td {
+    margin-right: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+    background-color: #140a1e;
+    border-radius: 20px;
+    max-width: 80%;
+    float: right;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: large;
+}
+/* Base style for all chat messages */
+.message_base {
+    font-family: 'Lato';
+    margin: 20px 400px 0px 20px;
+    position: relative;
+    display: inline-block;
+    padding: 0px 20px 0px 20px;
+    border-radius: 20px;
+    max-width: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: white;
+    word-wrap: break-word;
+    white-space: pre-line;
+}
+
+/* Specific styles for different types of messages */
+.assistant_message {
+    background-color: #ff462b;
+}
+
+.user_message {
+    background-color: #218aff;
+    float: right;
+    margin-left: 20%;
+    margin-right: 30px;
+}
+
+/* Style for the chat container */
+.card_chat {
+    display: flex;
+    flex-direction: column-reverse;
+    overflow-y: auto;
+}
