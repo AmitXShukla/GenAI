@@ -30,12 +30,13 @@ Hands on experience to build Gen AI RAG based Pro Apps, running 100% locally/hos
 | 3   | [Tokenizer, Embeddings, Vector DB and LLM](./Manualify/src/Manualify.ipynb) | [link](https://www.youtube.com/playlist?list=PLp0TENYyY8lF8EsgtfDoPkuAgxc-lcwbd) |
 | 4   | [Tools/Function calling](./Manualify/src/Manualify.ipynb)                   | [link](https://www.youtube.com/playlist?list=PLp0TENYyY8lF8EsgtfDoPkuAgxc-lcwbd) |
 | 5   | [building a functioning web app](./ChatApp/serve.py)                        | [link](https://www.youtube.com/playlist?list=PLp0TENYyY8lF8EsgtfDoPkuAgxc-lcwbd) |
-| 6   | Pro APP : Time Expense monitoring automation                                | link  |
-| 7   | Pro APP: Local OCR Vision AI                                                | link  |
-| 8   | Pro APP: Supply Chain monitoring AI                                         | link  |
-| 9   | Pro APP: Help Desk automation                                               | link  |
-| 10  | Pro APP: Auto Responder                                                     | link  |
-| 11  | Appendix - Other use cases                                                  | link  |
+| 6   | [Pro APP: Face Recognition AI app](./FaceRecognition/src/FAISS.ipynb)       | [link](https://www.youtube.com/playlist?list=PLp0TENYyY8lF8EsgtfDoPkuAgxc-lcwbd) |
+| 7   | Pro APP : Time Expense monitoring automation                                | link  |
+| 8   | Pro APP: Local OCR Vision AI                                                | link  |
+| 9   | Pro APP: Supply Chain monitoring AI                                         | link  |
+| 10  | Pro APP: Help Desk automation                                               | link  |
+| 11  | Pro APP: Auto Responder                                                     | link  |
+| 12  | Appendix - Other use cases                                                  | link  |
 
 **Here is a high level process flow diagram**
 
