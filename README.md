@@ -16,7 +16,7 @@ click here to access [youtube](https://www.youtube.com/playlist?list=PLp0TENYyY8
 ## What you'll learn
 Hands on experience to build Gen AI RAG based Pro Apps, running 100% locally/hosted or API based, using API / tools of your choice.
 ## Tools
-		Vector DB: TryChroma, SQLLite or any VectorDB of your choice
+		Vector DB: FAISS, Chroma, SQLLite or any VectorDB of your choice
 		Progamming: Python 3.12+
 		Application: Ollama WebUI, Taipy or Flutter
 		IDE: Jupyter Lab, Ollama
