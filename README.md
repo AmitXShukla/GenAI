@@ -11,14 +11,14 @@ This blog series is for beginners and young Entrepreneurs who want to build **Ge
 [<img src="https://github.com/AmitXShukla/AmitXShukla.github.io/blob/master/assets/icons/medium.svg" width=40 height=50>](https://medium.com/@Amit-Shukla)
 [<img src="https://github.com/AmitXShukla/AmitXShukla.github.io/blob/master/assets/icons/twitter_1.svg" width=40 height=50>](https://x.com/@ashuklax)
 
-click here to access [youtube](https://www.youtube.com/playlist?list=PLp0TENYyY8lF8EsgtfDoPkuAgxc-lcwbd), [X](https://x.com/ashuklax/highlights) playlists.
+click here to access [YouTube](https://www.youtube.com/playlist?list=PLp0TENYyY8lF8EsgtfDoPkuAgxc-lcwbd), [X](https://x.com/ashuklax/highlights) playlists.
 
 ## What you'll learn
 Hands on experience to build Gen AI RAG based Pro Apps, running 100% locally/hosted or API based, using API / tools of your choice.
 ## Tools
 		Vector DB: FAISS, Chroma, SQLLite or any VectorDB of your choice
-		Progamming: Python 3.12+
-		Application: Ollama WebUI, Taipy or Flutter
+		Programming: Python 3.12+
+		Application: Ollama WebUI, TAIPY or Flutter
 		IDE: Jupyter Lab, Ollama
 		LLM: Gemini | llama 3.2 | OpenAI ChatGPT | Anthropic | Local models
 ## Lessons

@@ -17,7 +17,7 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 def loadDB():
     # Load the image
-    image_path = './image.jpg'  # Replace with your image path
+    image_path = './images/image.jpg'  # Replace with your image path
     image = Image.open(image_path)
 
     # Get dimensions
@@ -181,7 +181,8 @@ def query_gpt4o(state):
     D, I = indexDB.search(employee_q, k)
     # return I
     print(I)
-    return str(I[0][0])
+    # return str(I[0][0])
+    return "Person name is : Amit Shukla"
     # headers = {
     #     "Content-Type": "application/json",
     #     "Authorization": f"Bearer {OPENAI_API_KEY}",
@@ -191,7 +192,9 @@ def query_gpt4o(state):
     #     base64_image = encode_image(state.query_image_path)
     #     message = {
     #         "role": "user",
-    #         "content": [
+    # 
+    #         "ls
+    # content": [
     #             {"type": "text", "text": f"{state.query_message}"},
     #             {
     #                 "type": "image_url",
