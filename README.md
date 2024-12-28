@@ -30,10 +30,10 @@ Hands on experience to build Gen AI RAG based Pro Apps, running 100% locally/hos
 | 3   | [Tokenizer, Embeddings, Vector DB and LLM](./Manualify/src/Manualify.ipynb) | [link](https://www.youtube.com/playlist?list=PLp0TENYyY8lF8EsgtfDoPkuAgxc-lcwbd) |
 | 4   | [Tools/Function calling](./Manualify/src/Manualify.ipynb)                   | [link](https://www.youtube.com/playlist?list=PLp0TENYyY8lF8EsgtfDoPkuAgxc-lcwbd) |
 | 5   | [building a functioning web app](./ChatApp/serve.py)                        | [link](https://www.youtube.com/playlist?list=PLp0TENYyY8lF8EsgtfDoPkuAgxc-lcwbd) |
-| 6   | [Pro APP: Face Recognition AI](./FaceRecognition/FAISS.ipynb)               | [link](https://www.youtube.com/playlist?list=PLp0TENYyY8lF8EsgtfDoPkuAgxc-lcwbd) |
-| 7   | [Pro APP: Local OCR Vision AI](./OCR/OCR.ipynb)                             | [link](https://www.youtube.com/playlist?list=PLp0TENYyY8lF8EsgtfDoPkuAgxc-lcwbd) |
-| 8   | [Pro APP: Duplicate Document Finder](./DuplicateDocument/DuplicateDocument.ipynb)     | [link](https://www.youtube.com/playlist?list=PLp0TENYyY8lF8EsgtfDoPkuAgxc-lcwbd) |
-| 9   | [Pro APP: Smart Supply](./SupplyChain/SmartSupply.ipynb)                    | [link](https://www.youtube.com/playlist?list=PLp0TENYyY8lF8EsgtfDoPkuAgxc-lcwbd) |
+| 6   | [Pro APP: Face Recognition AI](./FaceRecognition/FAISS.ipynb)               | [link](https://www.youtube.com/playlist?list=PLp0TENYyY8lFwTOS7KHZ3scBM0j5C6TXe) |
+| 7   | [Pro APP: Local OCR Vision AI](./OCR/OCR.ipynb)                             | [link](https://www.youtube.com/playlist?list=PLp0TENYyY8lFwTOS7KHZ3scBM0j5C6TXe) |
+| 8   | [Pro APP: Duplicate Document Finder](./DuplicateDocument/DuplicateDocument.ipynb)     | [link](https://www.youtube.com/playlist?list=PLp0TENYyY8lFwTOS7KHZ3scBM0j5C6TXe) |
+| 9   | [Pro APP: Smart Supply](./SupplyChain/SmartSupply.ipynb)                    | [link](https://www.youtube.com/playlist?list=PLp0TENYyY8lFwTOS7KHZ3scBM0j5C6TXe) |
 | 10  | Pro APP : Time Expense monitoring automation                                | link  |
 | 11  | Pro APP: Supply Chain monitoring AI                                         | link  |
 | 12  | Pro APP: Help Desk automation                                               | link  |
