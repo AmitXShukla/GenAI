@@ -20,7 +20,9 @@ Hands on experience to build Gen AI RAG based Pro Apps, running 100% locally/hos
 		Programming: Python 3.12+
 		Application: Ollama WebUI, TAIPY or Flutter
 		IDE: Jupyter Lab, Ollama
-		LLM: Gemini | llama 3.2 | OpenAI ChatGPT | Anthropic | Local models
+		LLM: Deepseek-R1 | Gemini | llama 3.3 | OpenAI ChatGPT | Anthropic | Local models
+        AI Agents: Microsoft AutoGen 0.4
+
 ## Lessons
 
 | #   | Lesson                                                                      | video |
