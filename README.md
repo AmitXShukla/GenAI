@@ -30,9 +30,9 @@ Hands on experience to build Gen AI RAG based Pro Apps, running 100% locally/hos
 | 3   | [Tokenizer, Embeddings, Vector DB and LLM](./Manualify/src/Manualify.ipynb) | [link](https://www.youtube.com/playlist?list=PLp0TENYyY8lF8EsgtfDoPkuAgxc-lcwbd) |
 | 4   | [Tools/Function calling](./Manualify/src/Manualify.ipynb)                   | [link](https://www.youtube.com/playlist?list=PLp0TENYyY8lF8EsgtfDoPkuAgxc-lcwbd) |
 | 5   | [building a functioning web app](./ChatApp/serve.py)                        | [link](https://www.youtube.com/playlist?list=PLp0TENYyY8lF8EsgtfDoPkuAgxc-lcwbd) |
-| 6   | [Pro APP: Face Recognition AI](./FaceRecognition/FAISS.ipynb)               | [link](https://www.youtube.com/playlist?list=PLp0TENYyY8lFwTOS7KHZ3scBM0j5C6TXe) |
+| 6   | [Pro APP: Face Recognition AI](./FaceRecognition/FAISS.ipynb)               | [link](https://www.youtube.com/playlist?list=PLp0TENYyY8lGwnsyzdK8OgSpSPV0GYLut) |
 | 7   | [Pro APP: Local OCR Vision AI](./OCR/OCR.ipynb)                             | [link](https://www.youtube.com/playlist?list=PLp0TENYyY8lFwTOS7KHZ3scBM0j5C6TXe) |
-| 8   | [Pro APP: AI Agents](./AI-Agents/ai-agents.ipynb)                           | [link](https://www.youtube.com/playlist?list=PLp0TENYyY8lFwTOS7KHZ3scBM0j5C6TXe) |
+| 8   | [Pro APP: AI Agents](./AI-Agents/ai-agents.ipynb)                           | [link](https://www.youtube.com/playlist?list=PLp0TENYyY8lElEIm2n7QW9vgb3XPK8gyr) |
 | 9   | Pro APP: Time Expense monitoring automation                                 | link  |
 | 10  | Pro APP: HR Help Desk automation                                            | link  |
 | 11  | Pro APP: Auto Responder, IT Ticker Handler                                  | link  |
