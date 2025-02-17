@@ -35,13 +35,14 @@ Hands on experience to build Gen AI RAG based Pro Apps, running 100% locally/hos
 | 6   | [Pro APP: Face Recognition AI](./FaceRecognition/FAISS.ipynb)               | [link](https://www.youtube.com/playlist?list=PLp0TENYyY8lGwnsyzdK8OgSpSPV0GYLut) |
 | 7   | [Pro APP: Local OCR Vision AI](./OCR/OCR.ipynb)                             | [link](https://www.youtube.com/playlist?list=PLp0TENYyY8lFwTOS7KHZ3scBM0j5C6TXe) |
 | 8   | [Pro APP: AI Agents](./AI-Agents/ai-agents.ipynb)                           | [link](https://www.youtube.com/playlist?list=PLp0TENYyY8lElEIm2n7QW9vgb3XPK8gyr) |
-| 9   | Pro APP: Time Expense monitoring automation                                 | link  |
-| 10  | Pro APP: HR Help Desk automation                                            | link  |
-| 11  | Pro APP: Auto Responder, IT Ticker Handler                                  | link  |
-| 12  | Pro APP: Duplicate Document Finder                                          | link  |
-| 13  | Pro APP: Smart Supply                                                       | link  |
-| 14  | Pro APP: Supply Chain monitoring AI                                         | link  |
-| 15  | Appendix - Other use cases                                                  | link  |
+| 9   | building with Grok 3.0                                                      | link  |
+| 10  | Pro APP: Time Expense monitoring automation                                 | link  |
+| 11  | Pro APP: HR Help Desk automation                                            | link  |
+| 12  | Pro APP: Auto Responder, IT Ticker Handler                                  | link  |
+| 13  | Pro APP: Duplicate Document Finder                                          | link  |
+| 14  | Pro APP: Smart Supply                                                       | link  |
+| 15  | Pro APP: Supply Chain monitoring AI                                         | link  |
+| 16  | Appendix - Other use cases                                                  | link  |
 
 **Here is a high level process flow diagram**
 
