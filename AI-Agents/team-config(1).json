@@ -1,0 +1,123 @@
+{
+  "provider": "autogen_agentchat.teams.RoundRobinGroupChat",
+  "component_type": "team",
+  "version": 1,
+  "component_version": 1,
+  "description": "A single AssistantAgent (with a calculator tool) in a RoundRobinGroupChat team. ",
+  "label": "Default Team",
+  "config": {
+    "participants": [
+      {
+        "provider": "autogen_agentchat.agents.AssistantAgent",
+        "component_type": "agent",
+        "version": 1,
+        "component_version": 1,
+        "description": "An agent that provide information related to file metadata.",
+        "label": "Agent_Filer",
+        "config": {
+          "name": "assistant_agent",
+          "model_client": {
+            "provider": "autogen_ext.models.openai.OpenAIChatCompletionClient",
+            "component_type": "model",
+            "version": 1,
+            "component_version": 1,
+            "description": "Chat completion client for OpenAI hosted models.",
+            "label": "OpenAIChatCompletionClient",
+            "config": {
+              "model": "llama3.2",
+              "label": "OpenAIChatCompletionClient",
+              "description": "Chat completion client for OpenAI hosted models.",
+              "config": {
+                "model": "llama3.2",
+                "api_key": "na",
+                "base_url": "http://0.0.0.0:4000"
+              },
+              "base_url": "http://0.0.0.0:4000",
+              "api_key": "na",
+              "model_info": {
+                "model": "llama3.2",
+                "vision": "False",
+                "function_calling": "True",
+                "json_output": "False",
+                "family": "ModelFamily.R1"
+              }
+            }
+          },
+          "tools": [
+            {
+              "provider": "autogen_core.tools.FunctionTool",
+              "component_type": "tool",
+              "version": 1,
+              "component_version": 1,
+              "description": "Create custom tools by wrapping standard Python functions.",
+              "label": "FunctionTool",
+              "config": {
+                "source_code": "import os\nimport pwd\nimport mimetypes\nimport shutil\n\ndef get_FileMetaData(file_path: str) -> str:\n    # Get file size\n    file_size = os.path.getsize(file_path)\n    # Get file owner\n    file_owner = pwd.getpwuid(os.stat(file_path).st_uid).pw_name\n    # Get file type\n    file_type, _ = mimetypes.guess_type(file_path)\n\n    # not file metadata is read, move or rename this file as processed\n    # TODO: update this later as per business requirement\n    # shutil.move(file_path, file_path_processed)\n    \n    return f\"The file path is {file_path}, file owner is {file_owner}, file size is {file_size} and file type is {file_type}.\"",
+                "name": "Tool_Filer",
+                "description": "A function which prints file metadata",
+                "global_imports": [],
+                "has_cancellation_support": false
+              }
+            }
+          ],
+          "handoffs": [],
+          "model_context": {
+            "provider": "autogen_core.model_context.UnboundedChatCompletionContext",
+            "component_type": "chat_completion_context",
+            "version": 1,
+            "component_version": 1,
+            "description": "An unbounded chat completion context that keeps a view of the all the messages.",
+            "label": "UnboundedChatCompletionContext",
+            "config": {}
+          },
+          "description": "An agent that provide information related to file metadata.",
+          "system_message": "You are a helpful assistant. Solve tasks carefully. When done, say TERMINATE.",
+          "model_client_stream": false,
+          "reflect_on_tool_use": false,
+          "tool_call_summary_format": "{result}",
+          "label": "Agent_Filer",
+          "config": {
+            "name": "assistant_agent",
+            "description": "An agent that provide information related to file metadata.",
+            "system_message": "You are a helpful assistant. Solve tasks carefully. When done, say TERMINATE.",
+            "reflect_on_tool_use": false,
+            "tool_call_summary_format": "{result}"
+          }
+        }
+      }
+    ],
+    "termination_condition": {
+      "provider": "autogen_agentchat.base.OrTerminationCondition",
+      "component_type": "termination",
+      "version": 1,
+      "component_version": 1,
+      "label": "OrTerminationCondition",
+      "config": {
+        "conditions": [
+          {
+            "provider": "autogen_agentchat.conditions.TextMentionTermination",
+            "component_type": "termination",
+            "version": 1,
+            "component_version": 1,
+            "description": "Terminate the conversation if a specific text is mentioned.",
+            "label": "TextMentionTermination",
+            "config": {
+              "text": "TERMINATE"
+            }
+          },
+          {
+            "provider": "autogen_agentchat.conditions.MaxMessageTermination",
+            "component_type": "termination",
+            "version": 1,
+            "component_version": 1,
+            "description": "Terminate the conversation after a maximum number of messages have been exchanged.",
+            "label": "MaxMessageTermination",
+            "config": {
+              "max_messages": 10
+            }
+          }
+        ]
+      }
+    }
+  }
+}
