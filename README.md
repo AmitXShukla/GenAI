@@ -35,7 +35,7 @@ Hands on experience to build Gen AI RAG based Pro Apps, running 100% locally/hos
 | 6   | [Pro APP: Face Recognition AI](./FaceRecognition/FAISS.ipynb)               | [link](https://www.youtube.com/playlist?list=PLp0TENYyY8lGwnsyzdK8OgSpSPV0GYLut) |
 | 7   | [Pro APP: Local OCR Vision AI](./OCR/OCR.ipynb)                             | [link](https://www.youtube.com/playlist?list=PLp0TENYyY8lFwTOS7KHZ3scBM0j5C6TXe) |
 | 8   | [Pro APP: AI Agents](./AI-Agents/ai-agents.ipynb)                           | [link](https://www.youtube.com/playlist?list=PLp0TENYyY8lElEIm2n7QW9vgb3XPK8gyr) |
-| 9   | [building with Grok 3.0](./Grok3.0/grok3.ipynb)                             | link  |
+| 9   | [building with Grok 3.0](./Grok3.0/grok3.ipynb)                             | [link](https://www.youtube.com/watch?v=FZCVhVz7j-s)  |
 | 10  | Pro APP: Time Expense monitoring automation                                 | link  |
 | 11  | Pro APP: HR Help Desk automation                                            | link  |
 | 12  | Pro APP: Auto Responder, IT Ticker Handler                                  | link  |
